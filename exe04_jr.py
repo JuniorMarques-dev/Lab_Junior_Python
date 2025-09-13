@@ -1,0 +1,2 @@
+tipo = input('Digite algo, vamos descobrir oq é: ')
+print(f'Tipo primitivo {type(tipo)}\nÉ número? {tipo.isnumeric()}\nÉ alfabético? {tipo.isalpha()}\nÉ alfanúmerico? {tipo.isalnum()}\nÉ maiúscula? {tipo.isupper()}\nÉ minúscula? {tipo.islower()}\nÉ capitalizada? {tipo.istitle()} ')
